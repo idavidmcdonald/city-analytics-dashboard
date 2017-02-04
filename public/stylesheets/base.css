@@ -18,11 +18,11 @@ html {
   -webkit-font-smoothing: antialiased; }
 
 body {
-  background-color: #000;
+  background-color: #FFFFFF;
   padding: 0;
   margin: 0;
-  color: #F2F2F2;
-  font-family: 'Bitter', serif; }
+  color: #000000;
+  font-family: Arial, serif; }
 
 h1 {
   font-size: 2em !important; }
@@ -53,7 +53,7 @@ h2 {
     align-self: auto;
     -webkit-align-self: auto;
     min-height: 100%;
-    background-color: #00010D;
+    background-color: #FFFFFF;
     border-radius: 3px;
     overflow: hidden; }
     .bricks .brick h2, .bricks .brick div.box {
@@ -82,7 +82,7 @@ h2 {
       list-style: none;
       font-size: 25px;
       line-height: 1;
-      color: #B4D9D9;
+      color: #000000;
       opacity: 0.5; }
       .bricks .brick .search-terms ul li:nth-child(1) {
         opacity: 1.0; }
@@ -94,13 +94,13 @@ h2 {
   .bricks .device-type {
     width: 5px;
     height: 80%;
-    background: #fff;
+    background: #FFFFFF;
     display: block;
     position: absolute; }
     .bricks .device-type.mobile, .bricks .device-type.tablet {
-      background: #B26E00; }
+      background: #009ed4; }
     .bricks .device-type.desktop {
-      background: #265c8d; }
+      background: #006a8e; }
   .bricks .link {
     padding-left: 1em; }
     .bricks .link i {
@@ -117,7 +117,7 @@ h2 {
     -webkit-transform: translateZ(0);
     transition: opacity 0.5s;
     -webkit-transition: opacity 0.5s;
-    color: #B4D9D9;
+    color: #000000;
     opacity: 0.5; }
     .bricks .searches ul li:nth-child(1) {
       opacity: 1.0; }
@@ -129,13 +129,13 @@ h2 {
       margin-top: 5px; }
       .bricks .popular li em .visitor-types {
         float: left;
-        color: #fff;
+        color: #FFFFFF;
         padding: 0.3em;
         margin: 0 0.4em 0 0; }
         .bricks .popular li em .visitor-types.mobile {
-          background: #B26E00; }
+          background: #009ed4; }
         .bricks .popular li em .visitor-types.desktop {
-          background: #265c8d; }
+          background: #006a8e; }
       .bricks .popular li em .device-type {
         width: 5px;
         height: 1em;
@@ -143,17 +143,17 @@ h2 {
         margin: 0 0.4em 0 0; }
 
 .top-bar {
-  background: #00010D;
+  background: #FFFFFF;
   padding: 10px 20px;
   border-radius: 3px;
   color: #000;
   clear: both;
   overflow: hidden; }
   .top-bar p {
-    color: #B4D9D9;
+    color: #000000;
     font-size: 0.6em; }
     .top-bar p a {
-      color: #B4D9D9; }
+      color: #000000; }
   .top-bar .inner {
     position: relative;
     width: 105px;
@@ -181,7 +181,7 @@ h2 {
   -webkit-transform: translateZ(0);
   transition: opacity 0.5s;
   -webkit-transition: opacity 0.5s;
-  color: #B4D9D9;
+  color: #000000;
   opacity: 0.5; }
   .searches ul li a {
     color: inherit;
@@ -201,10 +201,10 @@ h2 {
 
 .traffic {
   color: black;
-  color: #B4D9D9;
+  color: #000000;
   text-align: center; }
   .traffic .text-feature {
-    color: #F2F2F2;
+    color: #FFFFFF;
     display: block;
     font-weight: bold;
     font-size: 300%; }
@@ -226,21 +226,22 @@ h2 {
     float: left;
     width: 80%; }
   .traffic path, .traffic line.axis {
-    stroke: #F2F2F2;
+    stroke: #000000;
     stroke-width: 0.4;
     fill: none; }
   .traffic .label {
-    fill: #78BFBF;
+    fill: #000000;
     font-size: 16px; }
   .traffic #traffic {
     float: left; }
     .traffic #traffic .visitor-count {
       margin: 0 auto;
-      padding: 0.3em 1em; }
+      padding: 0.3em 1em;
+      color: #FFFFFF; }
       .traffic #traffic .visitor-count#mobile-count {
-        background: #B26E00; }
+        background: #009ed4; }
       .traffic #traffic .visitor-count#desktop-count {
-        background: #265c8d;
+        background: #006a8e;
         margin-bottom: 5px; }
 
 .sparkline path {
@@ -260,7 +261,7 @@ h2 {
   margin: 0;
   padding-bottom: 10px;
   list-style: none;
-  color: #B4D9D9; }
+  color: #000000; }
   .content li em {
     font-style: normal;
     display: block;
