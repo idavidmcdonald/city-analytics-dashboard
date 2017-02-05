@@ -210,14 +210,13 @@ h2{
   }
   .inner {
     position: relative;
-    width: 105px;
-    height: 42px;
-    overflow: hidden;
+    width: 300px;
+    height: 105px;
     float:left;
     img {
       position: absolute;
       border: none;
-      width: 70%;
+      width: 90%;
     }
   }
 }
